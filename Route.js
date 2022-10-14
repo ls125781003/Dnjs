@@ -1,8 +1,7 @@
 
 eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
 var Route = {
-    jxLazy: "require('http://ghproxy.com/https://raw.githubusercontent.com/ls125781003/Dnjs/main/
-Route.js');aytmParse(input)",
+    jxLazy: "require('https://gitea.com/AI957/Hiker/raw/m/v/Route.js');aytmParse(input)",
     setParse: function() {
         eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
         if (!getVar('jxItemV')) {
@@ -41,7 +40,7 @@ Route.js');aytmParse(input)",
 function addLanJie(d) {
     let lanjie = ['baidu.*.png', '\.jpg', 'baidu\.', 'cnzz\.', 'dykj\.'];
     try {
-        eval('var ylanjie =' + fetchCache(fLinks.kT3 + 'x5ParseLanJie.txt', 12));
+        eval('var ylanjie =' + fetchCache(fLinks.kT + 'x5ParseLanJie.txt', 12));
     } catch (e) {}
     lanjie = typeof(ylanjie) == 'object' ? ylanjie : lanjie;
     for (let i = 0; i < d.length; i++) {
@@ -95,7 +94,7 @@ function playerParse(jurl) {
 }
 
 function setupPages(type, ls) {
-    var empty = ls != undefined ? 'hiker://empty#noHistory#' : 'hiker://empty#noRecordHistory#';
+    var empty = ls != undefined ? 'hiker://empty#noHistory#' : 'hiker://empty#noRecordHistory##noHistory#';
     switch (type) {
         case "设置":
             return $(empty).rule((setParse) => {
