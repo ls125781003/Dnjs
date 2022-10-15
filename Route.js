@@ -1,7 +1,7 @@
 
 eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
 var Route = {
-    jxLazy: "require('https://gitea.com/AI957/Hiker/raw/m/v/Route.js');aytmParse(input)",
+    jxLazy: "require('http://ghproxy.com/https://raw.githubusercontent.com/ls125781003/Dnjs/main/Route.js');aytmParse(input)",
     setParse: function() {
         eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
         if (!getVar('jxItemV')) {
